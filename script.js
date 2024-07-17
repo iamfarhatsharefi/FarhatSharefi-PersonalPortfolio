@@ -118,14 +118,14 @@ document.addEventListener('DOMContentLoaded', () => {
       {
         skill: 'Responsive web design',
         experience: 'New certification description',
-        link: 'https://www.freecodecamp.org/certification/Mehria-Saqibi/responsive-web-design',
-        imageSrc: 'images/responsive.png',
+        link: 'https://www.freecodecamp.org/certification/Farhatsharefi/responsive-web-design',
+        imageSrc: 'photo/responsive design.png',
       },
       {
         skill: 'Java Script',
         experience: 'New certification description',
-        link: 'https://www.freecodecamp.org/certification/Mehria-Saqibi/javascript-algorithms-and-data-structures-v8',
-        imageSrc: 'images/js.png',
+        link: 'https://www.freecodecamp.org/certification/Farhatsharefi/javascript-algorithms-and-data-structures-v8',
+        imageSrc: 'photo/java script.png',
       },
     ];
   
@@ -159,9 +159,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
   
-  document.addEventListener('DOMContentLoaded', () => {
-    const projects = [
-      {
+document.addEventListener('DOMContentLoaded', () => {
+  const projects = [
+    {
         title: 'Survey Form',
         shortDescription: "The form is designed to gather feedback about an English Program. It starts with a title and description explaining the purpose of the survey.",
         longDescription: "Welcome to the English Program Survey Form project description! This survey form is part of an initiative to gather feedback and insights from participants enrolled in our English program. The aim is to enhance the program's effectiveness, relevance, and overall learning experience based on community feedback.",
@@ -169,7 +169,6 @@ document.addEventListener('DOMContentLoaded', () => {
         technologies: ['HTML', 'CSS'],
         liveLink: 'https://iamfarhatsharefi.github.io/Survey-Form/',
         sourceLink: 'https://github.com/iamfarhatsharefi/Survey-Form/pulls',
-
       },
       {
         title: 'Technical Documentation Page',
@@ -179,7 +178,6 @@ document.addEventListener('DOMContentLoaded', () => {
         technologies: ['HTML', 'CSS'],
         liveLink: 'https://iamfarhatsharefi.github.io/Technical-documentation/',
         sourceLink: 'https://github.com/iamfarhatsharefi/Technical-documentation/pulls',
-
       },
       {
         title: 'Product Landing Page',
@@ -189,7 +187,6 @@ document.addEventListener('DOMContentLoaded', () => {
         technologies: ['HTML', 'CSS'],
         liveLink: 'https://iamfarhatsharefi.github.io/product-landing-page/',
         sourceLink: 'https://github.com/iamfarhatsharefi/product-landing-page/pulls',
-
       },
       {
         title: 'Personal Portfolio Webpage',
@@ -199,7 +196,6 @@ document.addEventListener('DOMContentLoaded', () => {
         technologies: ['HTML', 'CSS'],
         liveLink: 'https://iamfarhatsharefi.github.io/personal-portfolio/',
         sourceLink: 'https://github.com/iamfarhatsharefi/personal-portfolio/pulls',
-
       },
       {
         title: 'Palindrome Checker',
@@ -209,7 +205,6 @@ document.addEventListener('DOMContentLoaded', () => {
         technologies: ['HTML', 'CSS', 'JAVASCRIPT'],
         liveLink: 'https://iamfarhatsharefi.github.io/PalindromeChecker/',
         sourceLink: 'https://github.com/iamfarhatsharefi/PalindromeChecker/pulls',
-
       },
       {
         title: 'Roman Numeral Converter ',
@@ -219,7 +214,6 @@ document.addEventListener('DOMContentLoaded', () => {
         technologies: ['HTML', 'CSS', 'JAVASCRIPT'],
         liveLink: 'https://iamfarhatsharefi.github.io/Roman-Numeral-Converter/ ',
         sourceLink: 'https://github.com/iamfarhatsharefi/Roman-Numeral-Converter/pulls',
-
       },
       {
         title: 'Telephone Number Validator',
@@ -229,7 +223,6 @@ document.addEventListener('DOMContentLoaded', () => {
         technologies: ['HTML', 'CSS', 'JAVASCRIPT'],
         liveLink: 'https://iamfarhatsharefi.github.io/TelephoneNumberValidator/',
         sourceLink: 'https://github.com/iamfarhatsharefi/TelephoneNumberValidator/pulls',
-
       },
       {
         title: 'Cash Register',
@@ -239,7 +232,6 @@ document.addEventListener('DOMContentLoaded', () => {
         technologies: ['HTML', 'CSS', 'JAVASCRIPT'],
         liveLink: 'https://iamfarhatsharefi.github.io/Cash-Register/',
         sourceLink: 'https://github.com/iamfarhatsharefi/Cash-Register/pulls',
-
       },
       {
         title: 'Pokeman Search App',
@@ -249,15 +241,14 @@ document.addEventListener('DOMContentLoaded', () => {
         technologies: ['HTML', 'CSS', 'JAVASCRIPT'],
         liveLink: 'https://iamfarhatsharefi.github.io/Pokeman-search-App/',
         sourceLink: 'https://github.com/iamfarhatsharefi/Pokeman-search-App/pulls',
- 
       },
     ];
   
-    const worksSection = document.getElementById('works');
-    const projectPopup = document.getElementById('project-popup');
-    const closeBtn = document.getElementById('close-btn');
-    const openProjectPopup = (index) => {
-      const project = projects[index];
+  const worksSection = document.getElementById('works');
+  const projectPopup = document.getElementById('project-popup');
+  const closeBtn = document.getElementById('close-btn');
+  const openProjectPopup = (index) => {
+  const project = projects[index];
       document.getElementById('popup-title').textContent = project.title;
       document.getElementById('popup-description').textContent = project.description;
       document.getElementById('popup-image').src = project.image;
