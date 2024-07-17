@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', () => {
   document.addEventListener('DOMContentLoaded', () => {
     const projects = [
       {
-        title: "Survey Form",
+        title: 'Survey Form',
         shortDescription: "The form is designed to gather feedback about an English Program. It starts with a title and description explaining the purpose of the survey.",
         longDescription: "Welcome to the English Program Survey Form project description! This survey form is part of an initiative to gather feedback and insights from participants enrolled in our English program. The aim is to enhance the program's effectiveness, relevance, and overall learning experience based on community feedback.",
         image: "path/to/image.responsive.png",
@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       },
       {
-        title: " Tribute Page ",
+        title: 'Tribute Page',
         shortDescription: "This project is a Tribute Page dedicated to Bill Gates, showcasing his remarkable contributions to technology and philanthropy",
         longDescription: "The page features a structured layout that includes sections detailing Gates' early life, his pivotal role in revolutionizing personal computing with Microsoft, and his subsequent dedication to global health and education through the Bill & Melinda Gates Foundation. Each section is complemented by engaging visuals and concise text, providing visitors with a comprehensive overview of Gates' achievements and contributions.",
         image: "path/to/image1.png",
@@ -182,7 +182,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       },
       {
-        title: "Technical Documentation Page",
+        title: 'Technical Documentation Page',
         shortDescription: "This project is a Technical Documentation Page dedicated to HTML, showcasing fundamental concepts and syntax.",
         longDescription: "The Technical Documentation Page project on HTML is a meticulously crafted resource designed to educate and empower learners and developers in mastering Hypertext Markup Language (HTML). Built entirely using HTML for structure and CSS for styling, this webpage serves as a comprehensive guide covering essential HTML concepts, tags, attributes, and best practices.",
         image: "path/to/image1.png",
@@ -192,7 +192,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       },
       {
-        title: " Product Landing Page",
+        title: 'Product Landing Page',
         shortDescription: "This project is a Product Landing Page dedicated to the Gucci brand, showcasing their luxury fashion products. Created with HTML, styled using CSS",
         longDescription: "The Product Landing Page project focused on the Gucci brand offers a captivating digital experience that celebrates the essence of luxury fashion. Crafted with HTML for structure, CSS for styling, and JavaScript for dynamic elements, this webpage serves as a virtual gateway to explore Gucci's prestigious line of products.",
         image: "path/to/image.responsive.png",
@@ -202,7 +202,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       },
       {
-        title: " Personal Portfolio Webpage",
+        title: 'Personal Portfolio Webpage',
         shortDescription: "My Personal Portfolio Webpage is a showcase of my skills and projects in web development. Built with HTML, CSS",
         longDescription: "The Personal Portfolio Webpage represents a culmination of my journey and achievements in web development, designed to introduce visitors to my skills, projects, and professional profile. Developed using HTML, CSS, and JavaScript, this interactive webpage serves as a comprehensive hub where potential employers, clients, or collaborators can explore my capabilities and contributions to the field.",
         image: "path/to/image.responsive.png",
@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       },
       {
-        title: "Palindrome Checker ",
+        title: 'Palindrome Checker',
         shortDescription: "Palindrome Checker is a web application designed to determine whether a given string is a palindrome. Developed using HTML, CSS, and JavaScript",
         longDescription: "Palindrome Checker is an innovative web application developed to determine whether a given string is a palindrome, meaning it reads the same forwards and backwards. This project is built using HTML, CSS, and JavaScript, demonstrating my proficiency in front-end web development and interactive design.",
         image: "path/to/image.responsive.png",
@@ -222,7 +222,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       },
       {
-        title: "Roman Numeral Converter ",
+        title: 'Roman Numeral Converter ',
         shortDescription: "Roman Numeral Converter is a web application designed to convert numbers between Roman numerals and Arabic numerals. ",
         longDescription: "Roman Numeral Converter is a versatile web application designed to convert numbers between Roman numerals and Arabic numerals with ease. Developed using HTML, CSS, and JavaScript, this project showcases my ability to create practical, interactive web tools that offer a seamless user experience.",
         image: "path/to/image.responsive.png",
