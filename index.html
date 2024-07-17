@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">My Portfolio</div>
+            <div class="hamburger" id="hamburger">&#9776;</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#headline">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#works">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="headline">
+        <h1>Farhat Sharefi</h1>
+        <p>Farhat Sharefi, a passionate graphic design student at Kabul University, where I blend creativity with precision to craft visually stunning designs. Simultaneously, I'm honing my web development skills at the Kick Start Foundation, mastering the art of coding to create seamless and dynamic digital experiences. My journey intertwines the realms of art and technology, driving me to innovate and inspire through every project I undertake. Welcome to my portfolio, where creativity meets code in a symphony of digital brilliance.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Myself</h2>
+        <div id="skills"></div>
+        <img src="screenshot.jpg" alt="Certification Screenshot">
+        <a href="link-to-certification">View Certification</a>
+    </section>
+
+    <section id="works">
+        <h2>Projects</h2>
+        <div id="projects"></div>
+    </section>
+
+    <div id="project-popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <div id="popup-details"></div>
+        </div>
+    </div>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" name="name" placeholder="Name" maxlength="30" required>
+            <input type="email" id="email" name="email" placeholder="Email" required>
+            <textarea id="message" name="message" placeholder="Message" maxlength="500" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Built with ♥ by Farhat Sharefi</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
