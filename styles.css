@@ -285,7 +285,7 @@ body {
   }
   
   .footer {
-    background-color: #333;
+    background-color: black;
     color: #1a1919;
     text-align: center;
     padding: 10px 0;
@@ -297,7 +297,7 @@ body {
   
   @media (max-width: 767px) {
     .container {
-      padding: 10px;
+      padding: 15px;
     }
   }
   

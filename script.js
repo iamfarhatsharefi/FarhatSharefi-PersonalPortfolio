@@ -346,9 +346,9 @@ document.addEventListener('DOMContentLoaded', () => {
             if (!response.ok) {
               throw new Error('Network response was not ok');
             }
-            successMessage.textContent = 'Message sent successfully!';
-            successMessage.style.display = 'block';
-            successMessage.style.color = 'green';
+    successMessage.textContent = 'Message sent successfully!';
+    successMessage.style.display = 'block';
+      successMessage.style.color = 'green';
             contactForm.reset();
             localStorage.removeItem('formData');
             setTimeout(() => {
@@ -356,7 +356,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 5000);
           })
           .catch(() => {
-            // eslint-disable-next-line no-alert
+  // eslint-disable-next-line no-alert
             alert('There was an issue sending your message. Please try again later.');
           });
       }
