@@ -211,10 +211,10 @@ nav .logo a:hover {
   }
 
   .social-icons-desktop {
-    display: flex; /* Ensure social icons are shown on mobile */
-    bottom: 5px; /* Position from bottom for mobile */
-    right: 5px; /* Position from right for mobile */
-    gap: 0.5rem; /* Reduced space between icons for mobile */
+    display: flex;
+    bottom: 5px; 
+    right: 5px;
+    gap: 0.5rem;
   }
 
   .social-icons-desktop img {
