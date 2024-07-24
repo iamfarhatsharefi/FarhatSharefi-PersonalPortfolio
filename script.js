@@ -63,11 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
     skills: [
       {  image: 'images/html-5 2.png', name: 'HTML', alt: 'HTML' },
       {  image: 'images/css-3 2.png', name: 'Css', alt: 'CSS' },
-      {  image: 'images/java-script 2.png', name: 'JavaScript', alt: 'JavaScript' }
-    ],
-    certifications: [
-      { title: 'Responsive Web Design', image: 'images/ responsive.png', link: 'https://www.freecodecamp.org/certification/Farhatsharefi/responsive-web-design' },
-      { title: 'Java Script', image: 'images/ js.png', link: 'https://www.freecodecamp.org/certification/Farhatsharefi/javascript-algorithms-and-data-structures-v8' },
+      {  image: 'images/java-script 2.png', name: 'JavaScript', alt: 'JavaScript' },
     ],
   };
 
