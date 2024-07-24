@@ -287,7 +287,7 @@ nav .logo a:hover {
   }
 
   .menu-icon {
-    display: block; /* Show the menu icon on smaller screens */
+    display: block;
   }
 }
 
