@@ -378,7 +378,7 @@ document.addEventListener('DOMContentLoaded', () => {
    // New certificates section code
    const certificationContentDiv = document.getElementById('certification-content');
    const certifications = [
-     // ... list of certifications as in the previous instructions ...
+    
    ];
  
    certifications.forEach((cert) => {
