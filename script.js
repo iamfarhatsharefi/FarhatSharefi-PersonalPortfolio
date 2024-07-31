@@ -310,7 +310,7 @@ document.addEventListener('DOMContentLoaded', () => {
         email: emailInput.value.trim().toLowerCase(),
         message: messageInput.value.trim(),
       };
-      const formUrl = 'https://formspree.io/your_form_id_here';
+      const formUrl = 'https://formspree.io/f/mblroodb';
       const requestOptions = {
         method: 'POST',
         headers: {
@@ -341,9 +341,9 @@ document.addEventListener('DOMContentLoaded', () => {
   document.addEventListener('DOMContentLoaded', () => {
     const socialIconsData = [
       { img: 'images/GitHub.png', name: 'GitHub', url: 'https://github.com/iamfarhatsharefi' },
-      { img: 'images/fb.png', name: 'Facebook', url: 'https://facebook.com/Farhat.Sharefi' },
-      { img: 'images/linkedin.png', name: 'LinkedIn', url: 'https://linkedin.com' },
-      { img: 'imagesWhtsApp.ng', name: 'WhatsApp', url: 'https://whatsapp.com/0730011960' },
+      { img: 'images/fb.png', name: 'Facebook', url: 'https://www.facebook.com/Farhat.Sharefi' },
+      { img: 'images/linkedin.png', name: 'LinkedIn', url: 'https://www.linkedin.com/in/farhat-sharefi-13a101309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+      { img: 'imagesWhtsApp.ng', name: 'WhatsApp', url: 'https://wa.me/0730011960' },
     ];
     const createSocialIcon = ({ img, name, url }) => {
       const a = document.createElement('a');

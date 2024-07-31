@@ -493,7 +493,6 @@ h3 {
   padding: 8px 16px;
 }
 
-/* Popup content styling */
 .popup-content {
   position: relative;
   margin: 15% auto;
@@ -773,7 +772,7 @@ h3 {
 }
 
 .success-message {
-  color: #28a745; /* Green color */
+  color: #28a745; 
   font-weight: bold;
   margin-top: 10px;
 }
