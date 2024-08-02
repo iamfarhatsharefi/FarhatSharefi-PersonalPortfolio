@@ -40,8 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const logoText = 'FARHAT👩‍💻';
   logoElement.textContent = logoText;
   const myName = '<h2 class ="hello">Hello there,<span class="highlight">I`m</span></h2>';
-  const myIntro = `I’m a passionate <span class="highlight">web development</span> student and <span class="highlight">A Junior Web Developer</span> from <span class="highlight">Afghanistan</span>. My journey in technology includes being a dedicated student at the <span class="highlight">Kick Start Foundation</span>, where I am honing my web development and coding skills. Additionally, I am pursuing my passion for <span class="highlight">graphic design</span> at Kabul University.
-I am constantly <span class="highlight">eager</span> to expand my knowledge and skills. Beyond coding, I am enthusiastic about collaborating with others and sharing knowledge. I believe in the power of teamwork and am always open to new ideas and perspectives. My goal is to not only build functional and aesthetically pleasing web applications but also to make a positive impact through my work.`;
+  const myIntro = ` a graphic design student at Kabul University with a love for coding. I enjoy creating responsive and visually appealing websites, always eager to take on new challenges.`;
   const headline = document.getElementById('headline');
   const intro = document.getElementById('intro');
   headline.innerHTML = myName;
