@@ -134,7 +134,7 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', () => {
   const projects = [
     {
-      title: 'Survey Form',
+      title: ' 1: Survey Form',
       description: 'The form is designed to gather feedback about an English Program. It starts with a title and description explaining the purpose of the survey',    image: 'images/survey-form.png',
       longDescription: 'Welcome to the English Program Survey Form project description! This survey form is part of an initiative to gather feedback and insights from participants enrolled in our English program. The aim is to enhance the program\'s effectiveness, relevance, and overall learning experience based on community feedback.',
       screenshots: ['images/survey-form.png'],
@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
       sourceLink: 'https://github.com/iamfarhatsharefi/Survey-Form/pulls',
     },
     {
-      title: 'Product Landing page',
+      title: ' 2 : Product Landing page',
       description: 'This project is a Product Landing Page dedicated to the Gucci brand, showcasing their luxury fashion products. Created with HTML, styled using CSS',
       image: 'images/landing page.png',
       longDescription: 'The Product Landing Page project focused on the Gucci brand offers a captivating digital experience that celebrates the essence of luxury fashion. Crafted with HTML for structure, CSS for styling, and JavaScript for dynamic elements, this webpage serves as a virtual gateway to explore Gucci\'s prestigious line of products.',

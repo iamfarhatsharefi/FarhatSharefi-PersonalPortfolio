@@ -90,3 +90,9 @@ Feel free to modify or expand on these features as needed!
 ## Author 👩‍💻
 - [Linkedin](https://www.linkedin.com/in/farhat-sharefi-13a101309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 - [Email](sharefifarhat@gmail.com)
+
+## UI/UX Author 👩‍💻 
+- Website: [website.com]( )
+- LinkedIn: []()
+- Email: [email]()
+
