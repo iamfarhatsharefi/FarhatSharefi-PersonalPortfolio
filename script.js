@@ -143,7 +143,7 @@ document.addEventListener('DOMContentLoaded', () => {
       sourceLink: 'https://github.com/iamfarhatsharefi/Survey-Form/pulls',
     },
     {
-      title: ' 2 : Product Landing page',
+      title: ' 2: Product Landing page',
       description: 'This project is a Product Landing Page dedicated to the Gucci brand, showcasing their luxury fashion products. Created with HTML, styled using CSS',
       image: 'images/landing page.png',
       longDescription: 'The Product Landing Page project focused on the Gucci brand offers a captivating digital experience that celebrates the essence of luxury fashion. Crafted with HTML for structure, CSS for styling, and JavaScript for dynamic elements, this webpage serves as a virtual gateway to explore Gucci\'s prestigious line of products.',
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
       sourceLink: 'https://github.com/iamfarhatsharefi/product-landing-page/pulls',
     },
     {
-      title: 'Technical Documentation Page',
+      title: ' 3: Technical Documentation Page',
       description: 'This project is a Technical Documentation Page dedicated to HTML, showcasing fundamental concepts and syntax',
       longDescription: 'The Technical Documentation Page project on HTML is a meticulously crafted resource designed to educate and empower learners and developers in mastering Hypertext Markup Language (HTML). Built entirely using HTML for structure and CSS for styling, this webpage serves as a comprehensive guide covering essential HTML concepts, tags, attributes, and best practices.',
       image: 'images/documentation-page.png',
@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
       sourceLink: 'https://github.com/iamfarhatsharefi/Technical-documentation/pulls',
     },
     {
-      title: 'Personal Portfolio Webpage',
+      title: ' 4: Personal Portfolio Webpage',
       description: 'My Personal Portfolio Webpage is a showcase of my skills and projects in web development. Built with HTML, CSS',
       image: 'images/portfolio.png',
       longDescription: 'The Personal Portfolio Webpage represents a culmination of my journey and achievements in web development, designed to introduce visitors to my skills, projects, and professional profile. Developed using HTML, CSS, and JavaScript, this interactive webpage serves as a comprehensive hub where potential employers, clients, or collaborators can explore my capabilities and contributions to the field.',
@@ -173,7 +173,7 @@ document.addEventListener('DOMContentLoaded', () => {
       sourceLink: 'https://github.com/iamfarhatsharefi/personal-portfolio/pulls',
     },
     {
-      title: 'Roman Numeral Converter',
+      title: ' 5: Roman Numeral Converter',
       description: 'Roman Numeral Converter is a web application designed to convert numbers between Roman numerals and Arabic numerals.',
       image: 'images/roman.png',
       longDescription: 'Roman Numeral Converter is a versatile web application designed to convert numbers between Roman numerals and Arabic numerals with ease. Developed using HTML, CSS, and JavaScript, this project showcases my ability to create practical, interactive web tools that offer a seamless user experience.',
@@ -183,7 +183,7 @@ document.addEventListener('DOMContentLoaded', () => {
       sourceLink: 'https://github.com/iamfarhatsharefi/Roman-Numeral-Converter/pulls',
     },
     {
-      title: 'palindrome-checker',
+      title: '6: palindrome-checker',
       description: 'Palindrome Checker is a web application designed to determine whether a given string is a palindrome. Developed using HTML, CSS, and JavaScript',
       image: 'images/Picture1.png',
       longDescription: 'Palindrome Checker is an innovative web application developed to determine whether a given string is a palindrome, meaning it reads the same forwards and backwards. This project is built using HTML, CSS, and JavaScript, demonstrating my proficiency in front-end web development and interactive design.',
@@ -193,7 +193,7 @@ document.addEventListener('DOMContentLoaded', () => {
       sourceLink: 'https://github.com/iamfarhatsharefi/PalindromeChecker/pulls',
     },
     {
-      title: 'Telephone-Number-Validator',
+      title: '7: Telephone-Number-Validator',
       description: 'Telephone Number Validator is a web application designed to verify the validity of telephone numbers',
       image: 'images/Picture3.png',
       longDescription: 'Telephone Number Validator is a robust web application developed to verify the validity of telephone numbers, ensuring they meet specific formatting criteria. Built using HTML, CSS, and JavaScript, this project showcases my skills in creating practical, interactive web applications that deliver a seamless user experience.',
@@ -203,7 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
       sourceLink: 'https://github.com/iamfarhatsharefi/TelephoneNumberValidator/pulls',
     },
     {
-      title: 'Cash Register',
+      title: '8: Cash Register',
       description: 'Cash Register is a web application designed to calculate the change due for various transactions. Developed using HTML, CSS, and JavaScript',
       image: 'images/Picture4 cash register.png',
       longDescription: 'Cash Register is a sophisticated web application designed to handle cash transactions by calculating the change due with precision. This project, developed using HTML, CSS, and JavaScript, exemplifies my skills in building practical and interactive financial tools that offer a seamless user experience.',
@@ -213,7 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
       sourceLink: 'https://github.com/iamfarhatsharefi/Cash-Register/pulls',
     },
     {
-      title: 'Pokemon-search-App',
+      title: '9: Pokemon-search-App',
       description: '"Pokémon Search App is a web application that allows users to search for and view detailed information about various Pokémon.',
       image: 'images/picture 5.png',
       longDescription: 'Pokémon Search App is an engaging web application designed to provide users with detailed information about their favorite Pokémon. Built using HTML, CSS, and JavaScript, this project highlights my skills in developing dynamic, interactive web applications that offer a seamless user experience.',
