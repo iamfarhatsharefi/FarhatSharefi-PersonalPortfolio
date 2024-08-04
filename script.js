@@ -187,12 +187,12 @@ const certificateData = [
   {
     title: 'Responsive Web Design',
     url: 'https://www.freecodecamp.org/certification/Farhatsharefi/responsive-web-design',
-    imageSrc: 'images/certificate1.png',
+    imageSrc:'images/responsive.png'
   },
   {
     title: 'JavaScript Algorithms and Data Structures',
     url: 'https://www.freecodecamp.org/certification/Farhatsharefi/javascript-algorithms-and-data-structures-v8', // Fixed URL property
-    imageSrc: 'images/certificate2.png',
+    imageSrc: 'images/js.png'
   },
 ];
 
