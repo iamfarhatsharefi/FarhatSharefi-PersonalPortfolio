@@ -69,7 +69,46 @@ const projects = [
     liveLink: 'https://iamfarhatsharefi.github.io/personal-portfolio/',
     sourceLink: 'https://github.com/iamfarhatsharefi/personal-portfolio/pulls',
   },
-  // ... other projects
+  {
+    title: '2: Roman Numeral Converter',
+    description: 'Roman Numeral Converter is a web application designed to convert numbers between Roman numerals and Arabic numerals.',
+    image: 'images/roman.png',
+    longDescription: 'Roman Numeral Converter is a versatile web application designed to convert numbers between Roman numerals and Arabic numerals with ease. Developed using HTML, CSS, and JavaScript, this project showcases my ability to create practical, interactive web tools that offer a seamless user experience.',
+    screenshots: ['images/RR2.png'],
+    technologies: ['HTML', 'CSS', 'JS'],
+    liveLink: 'https://iamfarhatsharefi.github.io/Roman-Numeral-Converter/',
+    sourceLink: 'https://github.com/iamfarhatsharefi/Roman-Numeral-Converter/pulls',
+  },
+  {
+    title: '3: palindrome-checker',
+    description: 'Palindrome Checker is a web application designed to determine whether a given string is a palindrome. Developed using HTML, CSS, and JavaScript',
+    image: 'images/Picture1.png',
+    longDescription: 'Palindrome Checker is an innovative web application developed to determine whether a given string is a palindrome, meaning it reads the same forwards and backwards. This project is built using HTML, CSS, and JavaScript, demonstrating my proficiency in front-end web development and interactive design.',
+    screenshots: ['images/PP2.png'],
+    technologies: ['HTML', 'CSS', 'JS'],
+    liveLink: 'https://iamfarhatsharefi.github.io/PalindromeChecker/',
+    sourceLink: 'https://github.com/iamfarhatsharefi/PalindromeChecker/pulls',
+  },
+  {
+    title: '4: Telephone-Number-Validator',
+    description: 'Telephone Number Validator is a web application designed to verify the validity of telephone numbers',
+    image: 'images/Picture3.png',
+    longDescription: 'Telephone Number Validator is a robust web application developed to verify the validity of telephone numbers, ensuring they meet specific formatting criteria. Built using HTML, CSS, and JavaScript, this project showcases my skills in creating practical, interactive web applications that deliver a seamless user experience.',
+    screenshots: ['images/TT2.png'],
+    technologies: ['HTML', 'CSS', 'JS'],
+    liveLink: 'https://iamfarhatsharefi.github.io/TelephoneNumberValidator/',
+    sourceLink: 'https://github.com/iamfarhatsharefi/TelephoneNumberValidator/pulls',
+  },
+  {
+    title: '5: Pokemon-search-App',
+    description: '"Pokémon Search App is a web application that allows users to search for and view detailed information about various Pokémon.',
+    image: 'images/picture 5.png',
+    longDescription: 'Pokémon Search App is an engaging web application designed to provide users with detailed information about their favorite Pokémon. Built using HTML, CSS, and JavaScript, this project highlights my skills in developing dynamic, interactive web applications that offer a seamless user experience.',
+    screenshots: ['images/PPP2.png', 'images/PO2.png'],
+    technologies: ['HTML', 'CSS', 'JS'],
+    liveLink: 'https://iamfarhatsharefi.github.io/Pokeman-search-App/',
+    sourceLink: 'https://github.com/iamfarhatsharefi/Pokeman-search-App/pulls',
+  },
 ];
 
 const projectsContainer = document.getElementById("projects");
@@ -147,13 +186,13 @@ closeButton.addEventListener("click", () => {
 const certificateData = [
   {
     title: 'Responsive Web Design',
-    url: 'https://www.freecodecamp.org/certification/Farhatsharefi/responsive-web-design', // Fixed URL property
-    imageSrc: 'images/responsive.png'
+    url: 'https://www.freecodecamp.org/certification/Farhatsharefi/responsive-web-design',
+    imageSrc: 'images/certificate1.png',
   },
   {
     title: 'JavaScript Algorithms and Data Structures',
     url: 'https://www.freecodecamp.org/certification/Farhatsharefi/javascript-algorithms-and-data-structures-v8', // Fixed URL property
-    imageSrc: 'images/algorithms.png'
+    imageSrc: 'images/certificate2.png',
   },
 ];
 
