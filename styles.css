@@ -81,3 +81,128 @@ nav {
   display: block;
 }
 
+.hamburger {
+  display: block;
+  width: 4rem;
+  position: absolute;
+  top: 0.68rem;
+  left: 9.25rem;
+  transform: translate(-50%, -100%);
+  padding-left: 0rem;
+  animation: hamburger-shine 2s ease-in-out infinite;
+  cursor: pointer;
+}
+
+@keyframes hamburger-shine {
+  0% {
+    filter: brightness(1);
+  }
+  50% {
+    filter: brightness(1.2);
+  }
+  100% {
+    filter: brightness(1);
+  }
+}
+
+.logo {
+  font-family: 'Acme', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.8975rem;
+  text-align: left;
+  width: 5.5625rem;
+  position: absolute;
+  top: 1.88rem;
+  left: 2.375rem;
+  color: #F9A826;
+  transform: translate(-600%, -200%);
+  transform: translate(-600%, -200%);
+  animation: logo-shine 2s ease-in-out infinite;
+}
+
+@keyframes logo-shine {
+  0% {
+    text-shadow: none;
+  }
+  50% {
+    text-shadow: 0 0 0.5rem #F9A826, 0 0 1rem #F9A826;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+.logo::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 0;
+  height: 0.125rem;
+  background-color: #F9A826;
+  transform: translateY(-50%);
+  transition: width 0.5s ease-in-out;
+}
+
+.logo:hover::before {
+  width: 100%;
+}
+
+.logo::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 0;
+  height: 0.125rem;
+  background-color: #F9A826;
+  transform: translateY(-50%);
+  transition: width 0.5s ease-in-out;
+}
+
+.logo:hover::after {
+  width: 100%;
+}
+
+.home-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-image {
+  width: 20.57375rem;
+  position: absolute;
+  top: 7rem;
+  left: 3.125rem;
+  display: flex;
+  align-items: center;
+  transform: translate(50%, 20%);
+  justify-content: center;
+  animation: home-image-bounce 2s ease-in-out infinite;
+}
+
+.home-content {
+  text-align: left;
+  margin-bottom: 800px;
+}
+
+.home-content h1 {
+  width: 17.1rem;
+  top: 31.78rem;
+  height: 2rem;
+  left: 3.43rem;
+  gap: 0rem;
+  font-family: 'Acme', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 3.16rem;
+  text-align: left;
+  transform: translate(-5%, 1900%);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-align: left;
+}
+
