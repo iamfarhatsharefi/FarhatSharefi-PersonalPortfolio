@@ -206,3 +206,76 @@ nav {
   text-align: left;
 }
 
+#home-name {
+  width: 10.3rem;
+  top: 36.54rem;
+  left: 3.43rem;
+  height: 1.9rem;
+  gap: 0rem;
+  transform: rotate(-0.37deg);
+  font-family: 'Acme', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.58rem;
+  text-align: left;
+  transform: translate(-9.9%, 2100%);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-align: left;
+}
+
+#home-role {
+  width: 16.56rem;
+  top: 38.59rem;
+  left: 3.43rem;
+  height: 1.9;
+  gap: 1rem;
+  font-family: 'Acme', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.58rem;
+  text-align: left;
+  transform: translate(-8.5%, 2550%);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+#home-description {
+  width: 30.37rem;
+  height: 7.81rem;
+  top: 40.22rem;
+  left: 3.43rem;
+  gap: 0rem;
+  font-family: 'Acme', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.58rem;
+  text-align: left;
+  transform: translate(-5.5%, 519%);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  text-align: left;
+  padding-right: 1rem;
+}
+
+.social-icons {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  top: 55.86rem;
+  left: 2.76rem;
+  gap: 1rem;
+  transform: rotate(-0.1deg) translate(-39%, 2600%);
+  transform: translate(-39%, 2600%);
+  margin-bottom: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
