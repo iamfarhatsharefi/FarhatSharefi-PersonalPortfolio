@@ -3,125 +3,45 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FARHAT PORTFOLIO -CAPSTONE PROJECT</title>
+  <title>FARHAT PORTFOLIO CAPSTONE PROJECT</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="stylesheet" href="https://unpkg.com/boxicons/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
   <nav>
-    <div class="logo" id="logo">FARHAT</div>
-    <div class="menu-icon" id="menu-icon">
-      &#9776;
-    </div>
-    <ul class="nav-links" id="nav-links">
+    <div class="logo">FARHAT🌚</div>
+    <ul class="nav-links">
       <li><a href="#home">Home</a></li>
-      <li><a href="#about-myself">About</a></li>
-      <li><a href="#project">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
       <li><a href="#certificates">Certificates</a></li>
-      <li><a href="#contact-form">Contact</a></li>
+      <li><a href="#contact">Contacts</a></li>
+      <li class="close-btn">
+        <svg viewBox="0 0 24 24" fill="#fff" >
+          <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+        </svg>
+      </li>
     </ul>
+    <div class="hamburger">
+      <img src="images/Menu.png" alt="Menu" />
+    </div>
   </nav>
-  <section id="home">
-  <div class="headline-section" >
-    <div class="container">
-      <h1 id="headline" class="headline"></h1>
-      <h2 class="headline-h2"> Farhat Sharefi!</h2>
-      <p id="intro" class="intro"></p>
-    </div>
-    <div class="image-content">
-      <img src="images/Ellipse 45.png" alt="Your Image" class="home-image">
-      <img src="images/Employee.png" alt="Your Image1" class="home-image1">
-    </div>
-    <div class="social-icons social-icons-desktop">
-      <a href="https://www.facebook.com/Farhat.Sharefi" target="_blank" rel="noopener noreferrer">
-        <img src="images/fb.png" alt="Facebook">
-      </a>
-      <a href="https://github.com/iamfarhatsharefi" target="_blank" rel="noopener noreferrer">
-        <img src="images/GitHub.png" alt="GitHub">
-      </a>
-      <a href="https://wa.me/0730011960" target="_blank" rel="noopener noreferrer">
-        <img src="images/WhatsApp.png" alt="WhatsApp">
-      </a>
-      <a href="https://www.linkedin.com/in/farhat-sharefi-13a101309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
-        <img src="images/linkedin.png" alt="LinkedIn">
-      </a>
-    </div>  
-  </div>
-</section>
-  <section id="about-myself" class="about-myself-section">
-    <div class="container"><img src="images/undraw_portfolio_update_re_jqnp 1.png" class="about-img">
-      <div id="dynamic-headlines"></div>
-      <div id="about-content">
-      <h3><span class="highlight"></span>
-      </h3></div>
-      <div id="skills-experiences"></div>
-      <div>
-  </div>
-</div>
-  </section>
-  <section id="project">
-    <h1>Projects</h1><img src="images/undraw_project_complete_lwss 1.png" class="about-img">
-  <header id="works" class="works-section">
-    <div class="container">
-<div id="project-popup" class="project-popup">
-    <div class="popup-content">
-        <span class="close-btn" id="close-btn">&times;</span>
-        <div class="popup-details">
-            <h2 id="popup-title"></h2>
-            <div class="popup-description" id="popup-description"></div>
-            <img src="" alt="Project Screenshot" id="popup-image">
-              <div id="popup-images" class="popup-images"></div>
-            <div class="popup-links">
-                <a href="#" id="live-link" target="_blank">Live Demo</a>
-                <a href="#" id="source-link" target="_blank">Source Code</a>
-            </div>
-        </div>
-    </div>
-</div> 
-</header>
-</section>
-<section id="certificates">
-  <h2>My Certifications</h2><img src="images/undraw_devices_re_dxae 2.png" class="about-img">
-  <p id="certificates-description">
-    Here's a collection of my certifications, highlighting my expertise and proficiency in various web development and programming domains. Each certification includes a link to the respective certificate, allowing you to verify and view the details.
-  </p>
-  
-  <div id="certification-content">
-    <a href="https://www.freecodecamp.org/certification/Farhatsharefi/responsive-web-design" target="_blank">
-      <img src="images/responsive.jpg" alt="Responsive Web Design Certification">
-    </a>
-    <a href="https://www.freecodecamp.org/certification/Farhatsharefi/javascript-algorithms-and-data-structures-v8" target="_blank">
-      <img src="images/js.jpg" alt="JavaScript Algorithms and Data Structures Certification">
-    </a>
-  </div>
-</section>
-  <section class="contact-form">
-    <div class="container">
-      <h2>Contact Me!</h2>
-      <form id="contact-form">
-        <div class="form-control">
-          <label for="name"> Full Name:</label>
-          <input type="text" id="name" name="name" placeholder="Enter your name " maxlength="30" required>
-        </div>
-        <div class="form-control">
-          <label for="email">Email Address:</label>
-          <input type="email" id="email" name="email" placeholder="Enter your email" required>
-        </div>
-        <div class="form-control">
-          <label for="message">Your Message:</label>
-          <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
-        </div>
-        <div id="error-message" class="error-message"></div>
-        <button type="submit" id="submit-btn">Send Message</button>
-        <div id="success-message" class="success-message"></div>
-      </form>
-    </div>
-  </section>
-  <footer class="footer">
-    <div class="container">
-      <p>Crafted with passion by Farhat Sharefi ✨</p>
-    </div>
-  </footer>
-  <script src="script.js"></script>
-</body>
-</html>
+  <div class="container">
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+      <div class="home-image">
+        <img id="home-image" src="images/employe1.png" alt="Profile Picture">
+      </div>
+      <div class="home-content">
+        <h1 id="home-title"></h1>
+        <p id="home-name"></p>
+        <p id="home-role"></p>
+        <p id="home-description"></p>
+        <ul class="social-icons">
+          <li><a href="https://www.linkedin.com/in/farhat-sharefi-13a101309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer"><img id="social-icon1" src="" alt="LinkedIn"></a></li>
+          <li> <a href="https://github.com/iamfarhatsharefi" target="_blank" rel="noopener noreferrer"><img id="social-icon2" src="" alt="GitHub"> <a href="https://github.com/iamfarhatsharefi" target="_blank" rel="noopener noreferrer"></a></li>
+          <li> <a href="https://www.facebook.com/share/pr9qDL3r8b3LffJ7/?mibextid=LQQJ4d" target="_blank" rel="noopener noreferrer"><img id="social-icon3" src="" alt="Facebook"></a></li>
+          <li> <a href="https://wa.me/93730011960" target="_blank" rel="noopener noreferrer"><img id="social-icon4" src="" alt="Whatsapp"></a></li>
+        </ul>
+      </div>
