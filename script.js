@@ -235,11 +235,11 @@ contactForm.addEventListener('submit', (e) => {
   .then(response => response.json())
   .then(data => {
     alert('Message sent successfully!');
-    contactForm.reset();
-  })
-  .catch(error => {
-    alert('There was a problem sending your message.');
-  });
+      contactForm.reset();
+    })
+    .catch(error => {
+      alert('There was a problem sending your message.');
+    });
 });
 
 function validateEmail(email) {
