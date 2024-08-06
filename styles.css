@@ -1641,3 +1641,95 @@ nav {
     transform: translate(120%, -180%);
   }
 }
+
+@media (min-width: 300px) and (max-width: 400px) {
+  #home-title {
+    width: 20rem;
+    transform: translate(30%, 1800%);
+  }
+
+  #home-name {
+    width: 20rem;
+    transform: translate(31%, 1930%);
+  }
+
+  #home-role {
+    width: 20rem;
+    transform: translate(31%, 2320%);
+  }
+
+  #home-description {
+    width: 20rem;
+    transform: translate(31%, 480%);
+  }
+
+  .social-icons {
+    width: 20rem;
+    transform: translate(10%, 2320%);
+  }
+
+  #about-image {
+    width: 20rem;
+    transform: translate(31%, -30%);
+  }
+
+  #about-title {
+    width: 20rem;
+    transform: translate(31%, -20%);
+  }
+
+  #about-role {
+    width: 20rem;
+    transform: translate(51%, -20%);
+  }
+
+  #about-description {
+    width: 30rem;
+    transform: translate(35%, 2%);
+  }
+
+  .skills {
+    width: 20rem;
+    transform: translate(52%, -400%);
+  }
+
+  #skill1,
+  #skill2,
+  #skill3 {
+    width: 20rem;
+    transform: translate(77%, -120%);
+  }
+
+  .contact-section h1 {
+    width: 80%;
+    transform: translate(31%, -100%);
+  }
+
+  #name,
+  #phone,
+  #email {
+    width: 20rem;
+    transform: translate(51%, -300%);
+  }
+
+  #message {
+    width: 20rem;
+    transform: translate(51%, -80%);
+  }
+
+  .email-message {
+    width: 20rem;
+    transform: translate(51%, 500%);
+  }
+
+  .submit-button {
+    width: 10rem;
+    transform: translate(151%, -170%);
+  }
+
+  .certificate-item h3 {
+    opacity: 1;
+    transform: translate(25%, -3200%);
+  }
+}
+
