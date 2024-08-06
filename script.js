@@ -111,24 +111,24 @@ const projects = [
   },
 ];
 
-const projectsContainer = document.getElementById("projects");
+const projectsContainer = document.getElementById('projects');
 projects.forEach((project) => {
-  const projectElement = document.createElement("div");
-  projectElement.classList.add("project");
-  const titleElement = document.createElement("h2");
-  titleElement.classList.add("color");
+  const projectElement = document.createElement('div');
+  projectElement.classList.add('project');
+  const titleElement = document.createElement('h2');
+  titleElement.classList.add('color');
   titleElement.textContent = project.title;
-  const descriptionElement = document.createElement("div");
-  descriptionElement.classList.add("description");
+  const descriptionElement = document.createElement('div');
+  descriptionElement.classList.add('description');
   descriptionElement.textContent = project.description;
-  const imageContainer = document.createElement("div");
-  imageContainer.classList.add("image-container");
-  const image = document.createElement("img");
+  const imageContainer = document.createElement('div');
+  imageContainer.classList.add('image-container');
+  const image = document.createElement('img');
   image.src = project.image; // Corrected from project.images[0]
-  const viewScreenshotsButton = document.createElement("button");
-  viewScreenshotsButton.classList.add("view-screenshots");
-  viewScreenshotsButton.textContent = "See More";
-  viewScreenshotsButton.addEventListener("click", () => {
+  const viewScreenshotsButton = document.createElement('button');
+  viewScreenshotsButton.classList.add('view-screenshots');
+  viewScreenshotsButton.textContent = 'See More';
+  viewScreenshotsButton.addEventListener('click', () => {
     showProjectPopup(project.screenshots, project.longDescription, project.technologies, project.liveLink, project.sourceLink);
   });
   imageContainer.appendChild(image);
@@ -225,16 +225,16 @@ contactForm.addEventListener('submit', (e) => {
     alert('Please enter a valid email address');
     return;
   }
-  fetch('https://formspree.io/f/mblroodb', { 
+  fetch('https://formspree.io/f/mblroodb', {
     method: 'POST',
     body: JSON.stringify({ email, message }),
     headers: {
       'Content-Type': 'application/json'
     }
   })
-  .then(response => response.json())
-  .then(data => {
-    alert('Message sent successfully!');
+    .then(response => response.json())
+    .then(data => {
+      alert('Message sent successfully!');
       contactForm.reset();
     })
     .catch(error => {
