@@ -64,7 +64,6 @@ const projects = [
     description: 'My Personal Portfolio Webpage is a showcase of my skills and projects in web development. Built with HTML, CSS',
     image: 'images/portfolio.png',
     longDescription: 'The Personal Portfolio Webpage represents a culmination of my journey and achievements in web development, designed to introduce visitors to my skills, projects, and professional profile. Developed using HTML, CSS, and JavaScript, this interactive webpage serves as a comprehensive hub where potential employers, clients, or collaborators can explore my capabilities and contributions to the field.',
-    screenshots: ['images/1 portfolio.png', 'images/portfolio.png', 'images/3 portfolio.png'],
     technologies: ['HTML', 'CSS'],
     liveLink: 'https://iamfarhatsharefi.github.io/personal-portfolio/',
     sourceLink: 'https://github.com/iamfarhatsharefi/personal-portfolio/pulls',
@@ -73,8 +72,8 @@ const projects = [
     title: '2: Roman Numeral Converter',
     description: 'Roman Numeral Converter is a web application designed to convert numbers between Roman numerals and Arabic numerals.',
     image: 'images/roman.png',
+
     longDescription: 'Roman Numeral Converter is a versatile web application designed to convert numbers between Roman numerals and Arabic numerals with ease. Developed using HTML, CSS, and JavaScript, this project showcases my ability to create practical, interactive web tools that offer a seamless user experience.',
-    screenshots: ['images/RR2.png'],
     technologies: ['HTML', 'CSS', 'JS'],
     liveLink: 'https://iamfarhatsharefi.github.io/Roman-Numeral-Converter/',
     sourceLink: 'https://github.com/iamfarhatsharefi/Roman-Numeral-Converter/pulls',

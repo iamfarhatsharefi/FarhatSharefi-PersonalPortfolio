@@ -92,7 +92,14 @@ Feel free to modify or expand on these features as needed!
 - [Email](sharefifarhat@gmail.com)
 
 ## UI/UX Author 👩‍💻 
-- Website: [website.com]( )
-- LinkedIn: []()
-- Email: [email]()
+- Name: Maryam Tarakhail
+- LinkedIn: [Maryam Trakhail](https://www.linkedin.com/in/maryam-tarakhail-098a992a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- Email: [email]( Maryamtarakhail2021@gmail.com)
 
+- Name: Sumaya Farahmand
+- LinkedIn: [Sumaya farahmand](https://www.linkedin.com/in/maryam-tarakhail-098a992a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- Email: [email]( s.frahmand2003@gmail.com)
+<br>
+
+-Name: Aminah
+- Email: [email](Emaansailab@gmail.com )
