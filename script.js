@@ -11,18 +11,17 @@ closeBtn.addEventListener('click', () => {
 });
 const userData = {
   homeImage: 'images/employe1.png',
-  homeTitle: 'Hello there, <span class="color">I`m</span>',
+  homeTitle: 'Hello there, <span class="color">I\'m</span>',
   homeName: 'Farhat Sharefi',
-  homeRole: 'I`m a <span class="color">Junior web developer</span>',
+  homeRole: 'a <span class="color">Junior web developer</span>',
   homeDescription: 'I\'m Farhat Sharefi, a graphic design student at Kabul University with a passion for coding and creating visually stunning web solutions.',
   aboutImage: 'images/undraw_portfolio_update_re_jqnp 1.png',
   aboutTitle: 'About <span class="color">Me</span>',
   aboutRole: '<span class="color">Junior Developer</span>',
   aboutDescription: 'I\'m Farhat Sharefi, a graphic design student with a passion for coding. I’ve studied photography for a year at Baakhtr Institute in Berlin and continue to enhance my skills in web development through my studies at the Kick Start Foundation. With a background in teaching, I enjoy blending creativity with technical expertise to craft meaningful digital experiences.',
   socialIcons: ['images/linkedin.png', 'images/GitHub.png', 'images/fb.png', 'images/WhatsApp.png'],
-  skillIcons: ['images/html-5 2.png', 'images/css-3 2.png', 'images/java-script 2.png']
+  skillIcons: ['images/html-5 2.png', 'images/css-3 2.png', 'images/java-script 2.png'],
 };
-
 const homeSection = document.getElementById('home');
 const aboutSection = document.getElementById('about');
 homeSection.querySelector('#home-image').src = userData.homeImage;
@@ -59,50 +58,52 @@ coloredElements.forEach((element) => {
 const projects = [
   {
     title: '1: Personal Portfolio Webpage',
-    description: 'My Personal Portfolio Webpage is a showcase of my skills and projects in web development. Built with HTML, CSS',
-    image: 'images/portfolio.png',
-    longDescription: 'The Personal Portfolio Webpage represents a culmination of my journey and achievements in web development, designed to introduce visitors to my skills, projects, and professional profile. Developed using HTML, CSS, and JavaScript, this interactive webpage serves as a comprehensive hub where potential employers, clients, or collaborators can explore my capabilities and contributions to the field.',
-       technologies: ['HTML', 'CSS'],
+    description: 'My Personal Portfolio Webpage showcases my skills and projects in web development. Built with HTML and CSS.',
+    images: ['images/portfolio.png'],
+    longDescription: 'The Personal Portfolio Webpage represents a culmination of my journey and achievements in web development. Developed using HTML, CSS, and JavaScript, this interactive webpage serves as a comprehensive hub where potential employers, clients, or collaborators can explore my skills, projects, and professional profile.',
+    technologies: ['HTML', 'CSS'],
     liveLink: 'https://iamfarhatsharefi.github.io/personal-portfolio/',
-    sourceLink: 'https://github.com/iamfarhatsharefi/personal-portfolio/pulls',
+    sourceLink: 'https://github.com/iamfarhatsharefi/personal-portfolio',
   },
   {
     title: '2: Roman Numeral Converter',
     description: 'Roman Numeral Converter is a web application designed to convert numbers between Roman numerals and Arabic numerals.',
-    image: 'images/roman.png',
-    longDescription: 'Roman Numeral Converter is a versatile web application designed to convert numbers between Roman numerals and Arabic numerals with ease. Developed using HTML, CSS, and JavaScript, this project showcases my ability to create practical, interactive web tools that offer a seamless user experience.'    
+    images: ['images/roman.png'],
+    longDescription: 'Roman Numeral Converter is a versatile web application designed to convert numbers between Roman numerals and Arabic numerals with ease. Developed using HTML, CSS, and JavaScript, this project showcases my ability to create practical, interactive web tools that offer a seamless user experience.',
     technologies: ['HTML', 'CSS', 'JS'],
     liveLink: 'https://iamfarhatsharefi.github.io/Roman-Numeral-Converter/',
-    sourceLink: 'https://github.com/iamfarhatsharefi/Roman-Numeral-Converter/pulls',
+    sourceLink: 'https://github.com/iamfarhatsharefi/Roman-Numeral-Converter',
   },
   {
-    title: '3: palindrome-checker',
-    description: 'Palindrome Checker is a web application designed to determine whether a given string is a palindrome. Developed using HTML, CSS, and JavaScript',
-    image: 'images/Picture1.png',
-    longDescription: 'Palindrome Checker is an innovative web application developed to determine whether a given string is a palindrome, meaning it reads the same forwards and backwards. This project is built using HTML, CSS, and JavaScript, demonstrating my proficiency in front-end web development and interactive design.',
-      technologies: ['HTML', 'CSS', 'JS'],
+    title: '3: Palindrome Checker',
+    description: 'Palindrome Checker is a web application designed to determine whether a given string is a palindrome.',
+    images: ['images/Picture1.png'],
+    longDescription: 'Palindrome Checker is an innovative web application that determines whether a given string is a palindrome, meaning it reads the same forwards and backwards. Built using HTML, CSS, and JavaScript, this project demonstrates my proficiency in front-end web development and interactive design.',
+    technologies: ['HTML', 'CSS', 'JS'],
     liveLink: 'https://iamfarhatsharefi.github.io/PalindromeChecker/',
-    sourceLink: 'https://github.com/iamfarhatsharefi/PalindromeChecker/pulls',
+    sourceLink: 'https://github.com/iamfarhatsharefi/PalindromeChecker',
   },
   {
-    title: '4: Telephone-Number-Validator',
-    description: 'Telephone Number Validator is a web application designed to verify the validity of telephone numbers',
-    image: 'images/Picture3.png',
+    title: '4: Telephone Number Validator',
+    description: 'Telephone Number Validator is a web application designed to verify the validity of telephone numbers.',
+    images: ['images/Picture3.png'],
     longDescription: 'Telephone Number Validator is a robust web application developed to verify the validity of telephone numbers, ensuring they meet specific formatting criteria. Built using HTML, CSS, and JavaScript, this project showcases my skills in creating practical, interactive web applications that deliver a seamless user experience.',
-        technologies: ['HTML', 'CSS', 'JS'],
+    technologies: ['HTML', 'CSS', 'JS'],
     liveLink: 'https://iamfarhatsharefi.github.io/TelephoneNumberValidator/',
-    sourceLink: 'https://github.com/iamfarhatsharefi/TelephoneNumberValidator/pulls',
+    sourceLink: 'https://github.com/iamfarhatsharefi/TelephoneNumberValidator',
   },
   {
-    title: '5: Pokemon-search-App',
-    description: '"Pokémon Search App is a web application that allows users to search for and view detailed information about various Pokémon.',
-    image: 'images/picture 5.png',
+    title: '5: Pokémon Search App',
+    description: 'Pokémon Search App allows users to search for and view detailed information about various Pokémon.',
+    images: ['images/picture 5.png'],
     longDescription: 'Pokémon Search App is an engaging web application designed to provide users with detailed information about their favorite Pokémon. Built using HTML, CSS, and JavaScript, this project highlights my skills in developing dynamic, interactive web applications that offer a seamless user experience.',
-       technologies: ['HTML', 'CSS', 'JS'],
+    screenshots: ['images/PPP2.png', 'images/PO2.png'],
+    technologies: ['HTML', 'CSS', 'JS'],
     liveLink: 'https://iamfarhatsharefi.github.io/Pokeman-search-App/',
-    sourceLink: 'https://github.com/iamfarhatsharefi/Pokeman-search-App/pulls',
+    sourceLink: 'https://github.com/iamfarhatsharefi/Pokeman-search-App',
   },
 ];
+
 const projectPopup = document.querySelector('.project-popup');
 const closeButton = document.querySelector('.project-popup .close-button');
 const screenshotSlider = document.querySelector('.project-popup .screenshot-slider');
@@ -199,7 +200,7 @@ const certificateData = [
   {
     title: 'Responsive Web Design',
     url: 'https://www.freecodecamp.org/certification/Farhatsharefi/responsive-web-design',
-    imageSrc: 'images/responsive.png',
+    imageSrc: 'images/my first.png',
   },
   {
     title: 'JavaScript Algorithms',
@@ -212,7 +213,9 @@ function generateCertificateItems() {
   const certificateDescriptionElement = document.querySelector('.certificate-description');
   const certificateGridElement = document.querySelector('.certificate-grid');
 
-  certificateDescriptionElement.textContent = "I'm Farhat Sharefi, a graphic design and photography student at Kabul University with a deep passion for coding and creativity. I have spent a year studying photography and graphic design at Bakhtr Institute in Berlin, where I refined my skills in capturing compelling visuals and designing impactful graphics. Alongside my visual arts journey, I've developed a strong love for coding, finding joy in creating elegant and efficient web solutions. My involvement in NGO work, including volunteering as a community mobilizer for Save the Children, has further fueled my desire to use both my design and coding skills to make a positive impact. My diverse experiences enable me to craft visually stunning, meaningful, and technically sound projects that resonate with audiences.";
+  certificateDescriptionElement.textContent = 'I\'m Farhat Sharefi, a graphic design and photography student at Kabul University with a passion for coding. My studies at Bakhtr Institute in Berlin and my NGO work, including volunteering with Save the Children, fuel my drive to create impactful web solutions and visually stunning projects.';
+
+
 
   certificateData.forEach((certificate) => {
     const certificateItem = document.createElement('a');
