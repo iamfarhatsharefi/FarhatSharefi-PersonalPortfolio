@@ -215,7 +215,6 @@ function generateCertificateItems() {
 
   certificateDescriptionElement.textContent = 'I\'m Farhat Sharefi, a graphic design and photography student at Kabul University with a passion for coding. My studies at Bakhtr Institute in Berlin and my NGO work, including volunteering with Save the Children, fuel my drive to create impactful web solutions and visually stunning projects.';
 
-
   certificateData.forEach((certificate) => {
     const certificateItem = document.createElement('a');
     certificateItem.href = certificate.url;
