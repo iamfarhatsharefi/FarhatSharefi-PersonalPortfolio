@@ -10,8 +10,11 @@ This portfolio showcases my journey in graphic design and web development, featu
 
 
 ## Demo 📸
-[Live Demo]()
-![Screenshot](./portfolioshot.PNG)
+![Demo](./portfolioshot.PNG)
+<br>
+ [Live-link](https://iamfarhatsharefi.github.io/FarhatSharefi-PersonalPortfolio/)
+
+
 ## Technologies Used 🛠️
 
 
