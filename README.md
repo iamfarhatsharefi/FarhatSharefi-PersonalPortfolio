@@ -10,9 +10,8 @@ This portfolio showcases my journey in graphic design and web development, featu
 
 
 ## Demo 📸
-[Live Demo](  )
-![Screenshot](./)
-
+[Live Demo]()
+![Screenshot](./portfolioshot.PNG)
 ## Technologies Used 🛠️
 
 
