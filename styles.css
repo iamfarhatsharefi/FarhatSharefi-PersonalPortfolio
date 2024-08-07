@@ -88,15 +88,15 @@ nav {
 .hamburger {
   display: block;
   width: 4rem;
+  height: 4rem; /* Add height for visibility */
   position: absolute;
-  top: 0;
-  left: 9.25rem;
-  transform: translate(-150%, -90%);
-  animation: humberger-shine 2s ease-in-out infinite;
-  border-radius: 100%;
-  background-color: #f9a82600;
-  backdrop-filter: blur(10px);
+  top: 1rem;
+  left: 1rem;
+  background-color: #f9a826; /* Solid color */
+  border-radius: 50%;
 }
+
+
 
 @keyframes humberger-shine {
   0% {
