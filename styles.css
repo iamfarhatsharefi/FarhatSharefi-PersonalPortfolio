@@ -228,12 +228,12 @@ nav {
   0%,
   100% {
     opacity: 0;
-    transform: translate(-50%, -50%) scale(0);
+    transform: translate(150%, -50%) scale(0);
   }
 
   50% {
     opacity: 1;
-    transform: translate(-50%, -50%) scale(1.2);
+    transform: translate(150%, -50%) scale(1.2);
   }
 }
 
