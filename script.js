@@ -200,14 +200,15 @@ const certificateData = [
   {
     title: 'Responsive Web Design',
     url: 'https://www.freecodecamp.org/certification/Farhatsharefi/responsive-web-design',
-    imageSrc: 'images/WhatsApp Image 2024-08-06 at 12.30.10_ccf67454.png',
+    imageSrc: 'images/capture test.png',
   },
   {
     title: 'JavaScript Algorithms',
     url: 'https://www.freecodecamp.org/certification/Farhatsharefi/javascript-algorithms-and-data-structures-v8',
-    imageSrc: 'images/js.png',
+    imageSrc: 'images/capture test 2.png',
   },
 ];
+
 
 function generateCertificateItems() {
   const certificateDescriptionElement = document.querySelector('.certificate-description');
