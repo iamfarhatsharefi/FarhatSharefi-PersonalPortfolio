@@ -192,51 +192,6 @@ nav {
   animation: float-and-glow 6s ease-in-out infinite;
 }
 
-@keyframes float-and-glow {
-  0%,
-  100% {
-    transform: translate(30%, 20%) translateY(0);
-    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.7));
-  }
-
-  50% {
-    transform: translate(30%, 20%) translateY(-15px);
-    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.9));
-  }
-}
-
-.home-image::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  height: 100%;
-  background:
-    radial-gradient(
-      circle,
-      rgba(255, 255, 255, 0.2)
-      0%,
-      rgba(255, 255, 255, 0) 70%
-    );
-  opacity: 0;
-  animation: pulse 6s ease-in-out infinite;
-}
-
-@keyframes pulse {
-  0%,
-  100% {
-    opacity: 0;
-    transform: translate(150%, -50%) scale(0);
-  }
-
-  50% {
-    opacity: 1;
-    transform: translate(150%, -50%) scale(1.2);
-  }
-}
-
 .home-content {
   margin-bottom: 800px;
 }
@@ -321,12 +276,6 @@ nav {
   justify-content: center;
   text-align: center;
   transition: all 0.3s ease;
-}
-
-.social-icons li a:hover {
-  transform: scale(1.2);
-  background-color: #ed9f0279;
-  box-shadow: 0 0 1rem #ed9d02;
 }
 
 .social-icons::before {
@@ -818,44 +767,16 @@ nav {
       rgba(255, 255, 255, 0) 100%
     );
   transform: rotate(30deg);
-  animation: shine 9s infinite;
-}
-
-@keyframes shine {
-  0% {
-    transform: translate(-50%, -50%) rotate(30deg) scale(1);
-    opacity: 0.5;
-  }
-  25% {
-    transform: translate(10%, 20%) rotate(-45deg) scale(1.2) skew(10deg, 10deg);
-    opacity: 0.8;
-  }
-  50% {
-    transform: translate(50%, 50%) rotate(60deg) scale(0.8) skew(-10deg, -10deg);
-    opacity: 1;
-  }
-  75% {
-    transform: translate(-20%, -40%) rotate(120deg) scale(1.3) skew(20deg, 0deg);
-    opacity: 0.6;
-  }
-  100% {
-    transform: translate(50%, 50%) rotate(30deg) scale(1);
-    opacity: 0.5;
-  }
 }
 
 .submit-button:hover {
   background-color: #fbb241;
-  box-shadow:
-    0 0.4rem 0.8rem rgba(249, 168, 38, 0.5),
-    0 0.2rem 0.4rem rgba(249, 168, 38, 0.4);
+  
 }
 
 .submit-button:active {
   transform: translate(80%, -58%);
-  box-shadow:
-    0 0.2rem 0.4rem rgba(249, 168, 38, 0.4),
-    0 0.1rem 0.2rem rgba(249, 168, 38, 0.3);
+
 }
 
 .error {
@@ -1061,7 +982,7 @@ nav {
   }
 
   .social-icons::before {
-    content: "Follow Us";
+    content: "Join the Journey";
     position: absolute;
     top: -2rem;
     left: 20%;
