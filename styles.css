@@ -771,12 +771,10 @@ nav {
 
 .submit-button:hover {
   background-color: #fbb241;
-  
 }
 
 .submit-button:active {
   transform: translate(80%, -58%);
-
 }
 
 .error {
