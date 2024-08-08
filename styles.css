@@ -124,20 +124,34 @@ nav {
   left: 2.375rem;
   color: #f9a826;
   transform: translate(-600%, -200%);
-  animation: logo-shine 2s ease-in-out infinite;
+  animation: logo-glow 2s ease-in-out infinite, logo-scale 4s ease-in-out infinite;
 }
 
-@keyframes logo-shine {
+@keyframes logo-glow {
   0% {
     text-shadow: none;
+    color: #f9a826;
   }
 
   50% {
     text-shadow: 0 0 0.5rem #f9a826, 0 0 1rem #f9a826;
+    color: #ffcc33;
   }
 
   100% {
     text-shadow: none;
+    color: #f9a826;
+  }
+}
+
+@keyframes logo-scale {
+  0%,
+  100% {
+    transform: scale(1) translate(-600%, -200%);
+  }
+
+  50% {
+    transform: scale(1.05) translate(-600%, -200%);
   }
 }
 
