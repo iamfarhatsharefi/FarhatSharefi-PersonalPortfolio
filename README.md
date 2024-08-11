@@ -12,7 +12,7 @@ This portfolio showcases my journey in graphic design and web development, featu
 ## Demo 📸
 ![Demo](./portfolioshot.PNG)
 <br>
- [Live-link](https://iamfarhatsharefi.github.io/FarhatSharefi-PersonalPortfolio/)
+ [Live-link]( https://iamfarhatsharefi.github.io/FarhatSharefi-PersonalPortfolio/)
 
 
 ## Technologies Used 🛠️
@@ -105,3 +105,5 @@ Feel free to modify or expand on these features as needed!
 
 -Name: Aminah
 - Email: [email](Emaansailab@gmail.com )
+
+[figma Link]: (https://www.figma.com/design/2PC6cwlFBShjhWQXpIELws/portfolio?node-id=0-1&t=cle1Qk5JBgrRyPFw-1)
