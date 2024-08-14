@@ -235,6 +235,7 @@ function generateCertificateItems() {
 }
 
 generateCertificateItems();
+
 const form = document.querySelector('.contact-form');
 const emailMessage = document.querySelector('.email-message');
 const formspreeUrl = 'https://formspree.io/f/mblroodb';
@@ -247,6 +248,7 @@ document.head.appendChild(style);
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
+  
   const name = document.getElementById('name').value;
   const phone = document.getElementById('phone').value;
   const email = document.getElementById('email').value;
@@ -274,7 +276,7 @@ form.addEventListener('submit', (event) => {
           emailMessage.classList.remove('error');
           // eslint-disable-next-line no-console
           console.log(`Name: ${name}, Phone: ${phone}, Email: ${email}, Message: ${message}`);
-          // eslint-disable-next-line no-alert
+          // Displaying the alert to notify the user
           alert('Message sent successfully!');
         } else {
           emailMessage.textContent = 'Failed to send message';
