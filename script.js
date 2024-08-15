@@ -200,12 +200,12 @@ const certificateData = [
   {
     title: 'Responsive Web Design',
     url: 'https://www.freecodecamp.org/certification/Farhatsharefi/responsive-web-design',
-    imageSrc: './images/capturetest.png',
+    imageSrc: 'images/capturetest.PNG',
   },
   {
     title: 'JavaScript Algorithms',
     url: 'https://www.freecodecamp.org/certification/Farhatsharefi/javascript-algorithms-and-data-structures-v8',
-    imageSrc: './images/capturetest2.png',
+    imageSrc: 'images/capturetest2.PNG',
   },
 ];
 
@@ -236,6 +236,7 @@ function generateCertificateItems() {
 
 generateCertificateItems();
 
+
 const form = document.querySelector('.contact-form');
 const emailMessage = document.querySelector('.email-message');
 const formspreeUrl = 'https://formspree.io/f/mblroodb';
@@ -254,6 +255,8 @@ form.addEventListener('submit', (event) => {
   const email = document.getElementById('email').value;
   const message = document.getElementById('message').value;
 
+  console.log('Form submitted'); // Step 1: Verify form submission
+
   if (email !== email.toLowerCase()) {
     emailMessage.textContent = 'Email must be in lowercase';
     emailMessage.classList.add('error');
@@ -270,14 +273,17 @@ form.addEventListener('submit', (event) => {
       body: formData,
     })
       .then((response) => {
+        console.log('Response status:', response.status); // Step 2: Check response status
         if (response.ok) {
           emailMessage.textContent = 'Message sent successfully';
           emailMessage.classList.add('sent');
           emailMessage.classList.remove('error');
-          // eslint-disable-next-line no-console
-          console.log(`Name: ${name}, Phone: ${phone}, Email: ${email}, Message: ${message}`);
+          
+          // Clear form fields after successful submission
+          form.reset();
+
           // Displaying the alert to notify the user
-          alert('Message sent successfully!');
+          alert('Message sent successfully!'); // Step 3: Ensure alert is called
         } else {
           emailMessage.textContent = 'Failed to send message';
           emailMessage.classList.add('error');
@@ -288,7 +294,6 @@ form.addEventListener('submit', (event) => {
         emailMessage.textContent = 'Error sending message';
         emailMessage.classList.add('error');
         emailMessage.classList.remove('sent');
-        // eslint-disable-next-line no-console
         console.error('Error:', error);
       });
   }
