@@ -200,12 +200,12 @@ const certificateData = [
   {
     title: 'Responsive Web Design',
     url: 'https://www.freecodecamp.org/certification/Farhatsharefi/responsive-web-design',
-    imageSrc: 'images/capturetest.PNG',
+    imageSrc: '/personal_portfolio_capstone_project/images/capturetest.PNG',
   },
   {
     title: 'JavaScript Algorithms',
     url: 'https://www.freecodecamp.org/certification/Farhatsharefi/javascript-algorithms-and-data-structures-v8',
-    imageSrc: 'images/capturetest2.PNG',
+    imageSrc: '/personal_portfolio_capstone_project/images/capturetest2.PNG',
   },
 ];
 
@@ -255,7 +255,7 @@ form.addEventListener('submit', (event) => {
   const email = document.getElementById('email').value;
   const message = document.getElementById('message').value;
 
-  console.log('Form submitted'); // Step 1: Verify form submission
+  console.log('Form submitted'); // Check if the form submission is captured
 
   if (email !== email.toLowerCase()) {
     emailMessage.textContent = 'Email must be in lowercase';
@@ -273,28 +273,31 @@ form.addEventListener('submit', (event) => {
       body: formData,
     })
       .then((response) => {
-        console.log('Response status:', response.status); // Step 2: Check response status
+        console.log('Response received:', response); // Check the full response object
+
         if (response.ok) {
+          console.log('Message sent successfully'); // Log if the response is OK
           emailMessage.textContent = 'Message sent successfully';
           emailMessage.classList.add('sent');
           emailMessage.classList.remove('error');
-          
+
           // Clear form fields after successful submission
           form.reset();
 
           // Displaying the alert to notify the user
-          alert('Message sent successfully!'); // Step 3: Ensure alert is called
+          alert('Message sent successfully!'); // Check if this line is executed
         } else {
+          console.log('Failed to send message, status:', response.status); // Log response status if it's not OK
           emailMessage.textContent = 'Failed to send message';
           emailMessage.classList.add('error');
           emailMessage.classList.remove('sent');
         }
       })
       .catch((error) => {
+        console.log('Error during fetch:', error); // Log any fetch errors
         emailMessage.textContent = 'Error sending message';
         emailMessage.classList.add('error');
         emailMessage.classList.remove('sent');
-        console.error('Error:', error);
       });
   }
 });
