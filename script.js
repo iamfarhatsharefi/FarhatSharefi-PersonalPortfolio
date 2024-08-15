@@ -238,44 +238,27 @@ generateCertificateItems();
 
 
 const form = document.querySelector('.contact-form');
-const formspreeUrl = 'https://formspree.io/f/mblroodb';
+    const formspreeUrl = 'https://formspree.io/f/mblroodb';
 
-form.addEventListener('submit', (event) => {
-  event.preventDefault();
-  
-  const name = document.getElementById('name').value;
-  const phone = document.getElementById('phone').value;
-  const email = document.getElementById('email').value;
-  const message = document.getElementById('message').value;
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
 
-  if (email !== email.toLowerCase()) {
-    alert('Email must be in lowercase.');
-  } else {
-    const formData = new FormData();
-    formData.append('name', name);
-    formData.append('phone', phone);
-    formData.append('email', email);
-    formData.append('message', message);
+      const formData = new FormData(form);
 
-    fetch(formspreeUrl, {
-      method: 'POST',
-      body: formData,
-    })
-      .then((response) => {
-        if (response.ok) {
-          // Alert for successful form submission
-          alert('Form submitted successfully!');
-          
-          // Clear form fields after successful submission
-          form.reset();
-        } else {
-          // Alert for failed form submission
-          alert('Failed to submit the form. Please try again.');
-        }
+      fetch(formspreeUrl, {
+        method: 'POST',
+        body: formData,
       })
-      .catch(() => {
-        // Alert for error during fetch
-        alert('There was an error submitting the form. Please check your internet connection and try again.');
-      });
-  }
-});
+        .then((response) => {
+          if (response.ok) {
+            alert('Form submitted successfully!');
+            form.reset();
+          } else {
+            alert('Failed to submit the form. Please try again.');
+          }
+        })
+        .catch((error) => {
+          alert('There was an error submitting the form. Please check your internet connection and try again.');
+          console.error('Error:', error);
+        });
+    });
