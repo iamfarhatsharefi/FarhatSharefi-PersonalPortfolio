@@ -238,14 +238,7 @@ generateCertificateItems();
 
 
 const form = document.querySelector('.contact-form');
-const emailMessage = document.querySelector('.email-message');
 const formspreeUrl = 'https://formspree.io/f/mblroodb';
-const style = document.createElement('style');
-style.textContent = `
-  .sent { color: green; }
-  .error { color: red; }
-`;
-document.head.appendChild(style);
 
 form.addEventListener('submit', (event) => {
   event.preventDefault();
@@ -255,12 +248,8 @@ form.addEventListener('submit', (event) => {
   const email = document.getElementById('email').value;
   const message = document.getElementById('message').value;
 
-  console.log('Form submitted'); // Check if the form submission is captured
-
   if (email !== email.toLowerCase()) {
-    emailMessage.textContent = 'Email must be in lowercase';
-    emailMessage.classList.add('error');
-    emailMessage.classList.remove('sent');
+    alert('Email must be in lowercase.');
   } else {
     const formData = new FormData();
     formData.append('name', name);
@@ -273,31 +262,20 @@ form.addEventListener('submit', (event) => {
       body: formData,
     })
       .then((response) => {
-        console.log('Response received:', response); // Check the full response object
-
         if (response.ok) {
-          console.log('Message sent successfully'); // Log if the response is OK
-          emailMessage.textContent = 'Message sent successfully';
-          emailMessage.classList.add('sent');
-          emailMessage.classList.remove('error');
-
+          // Alert for successful form submission
+          alert('Form submitted successfully!');
+          
           // Clear form fields after successful submission
           form.reset();
-
-          // Displaying the alert to notify the user
-          alert('Message sent successfully!'); // Check if this line is executed
         } else {
-          console.log('Failed to send message, status:', response.status); // Log response status if it's not OK
-          emailMessage.textContent = 'Failed to send message';
-          emailMessage.classList.add('error');
-          emailMessage.classList.remove('sent');
+          // Alert for failed form submission
+          alert('Failed to submit the form. Please try again.');
         }
       })
-      .catch((error) => {
-        console.log('Error during fetch:', error); // Log any fetch errors
-        emailMessage.textContent = 'Error sending message';
-        emailMessage.classList.add('error');
-        emailMessage.classList.remove('sent');
+      .catch(() => {
+        // Alert for error during fetch
+        alert('There was an error submitting the form. Please check your internet connection and try again.');
       });
   }
 });
