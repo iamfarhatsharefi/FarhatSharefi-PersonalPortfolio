@@ -129,6 +129,24 @@ const projects = [
     liveLink: 'https://deploy-preview-1--comforting-shortbread-5df959.netlify.app',
     sourceLink: 'https://github.com/iamfarhatsharefi/javascript-calculator',
   },
+  {
+    title: '9✨ Dynamic Drum Machine ',
+    description: 'The Dynamic Drum Machine is a fully interactive and responsive web application built using React and Bootstrap, designed to simulate a real drum machine.',
+    images: ['images/drumphoto.png'],
+    longDescription: 'The app is packed with custom audio clips, and it updates in real-time to reflect the drum pad being played. It offers a smooth and engaging user experience for both desktop and mobile users, passing all the requirements of the FreeCodeCamp Drum Machine project.',
+    technologies: ['HTML', 'CSS', 'JS', 'REACT.JS'],
+    liveLink: 'https://darling-madeleine-3b4c04.netlify.app/ ',
+    sourceLink: 'https://github.com/iamfarhatsharefi/drum-machine',
+  },
+  {
+    title: '10✨ 🕒 Clock Project ',
+    description: 'This Clock Project is a dynamic and responsive digital clock application built with React.',
+    images: ['images/clockpicture.png'],
+    longDescription: 'It displays real-time updates and offers a clean, minimalistic user interface. The clock is fully customizable, featuring different themes and adaptable layouts for mobile, tablet, and desktop screens. The project utilizes React hooks for efficient state management and adheres to best coding practices using ESLint and Stylelint for clean, maintainable code.',
+    technologies: ['REACT.JS'],
+    liveLink: 'https://clock-lqoqqw853-farhat-sharefis-projects.vercel.app/',
+    sourceLink: 'https://github.com/iamfarhatsharefi/clock',
+  },
 ];
 
 const projectPopup = document.querySelector('.project-popup');
