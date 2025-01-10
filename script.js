@@ -102,6 +102,33 @@ const projects = [
     liveLink: 'https://iamfarhatsharefi.github.io/Pokeman-search-App/',
     sourceLink: 'https://github.com/iamfarhatsharefi/Pokeman-search-App',
   },
+  {
+    title: '6: Cash-Register',
+    description: 'This project is a cash register application designed to calculate change and manage cash transactions.',
+    images: ['images/Picture4 cash register.png'],
+    longDescription: 'It allows users to input a purchase price and the amount paid by the customer, then calculates the change due. The application considers the available cash in the drawer (CID) and determines whether the transaction results in "INSUFFICIENT_FUNDS", "CLOSED", or remains "OPEN". It handles various denominations (PENNY, NICKEL, DIME, QUARTER, ONE, FIVE, TEN, TWENTY, ONE HUNDRED) and displays the status of the transaction dynamically on the screen.',
+    technologies: ['HTML', 'CSS', 'JS'],
+    liveLink: 'https://iamfarhatsharefi.github.io/Cash-Register/',
+    sourceLink: 'https://github.com/iamfarhatsharefi/Cash-Register',
+  },
+  {
+    title: '7✨ Markdown Previewer: ',
+    description: 'This project introduces significant enhancements and features to the Markdown Previewer project.',
+    images: ['images/previewer.png'],
+    longDescription: 'The primary objective is to ensure that the previewer accurately reflects Markdown syntax in real-time while providing a smooth and responsive user experience. This update also ensures full compliance with FreeCodeCamp requirements, ESLint checks, and optimized design for both desktop and mobile responsiveness.',
+    technologies: ['HTML', 'CSS', 'JS', 'REACT.JS'],
+    liveLink: 'https://luminous-muffin-3f93df.netlify.app/',
+    sourceLink: 'https://github.com/iamfarhatsharefi/Markdown-Previewer',
+  },
+  {
+    title: '8✨  Javascript Calculator: ',
+    description: 'This project  brings a touch of brilliance to the FreeCodeCamp JavaScript Calculator project! 🚀',
+    images: ['images/calculatorphoto.png'],
+    longDescription: ' brings a touch of brilliance to the FreeCodeCamp JavaScript Calculator project! 🚀 We’ve meticulously crafted a dynamic, user-friendly calculator that embodies both elegance and functionality. Dive into a world of clean code and stunning design!',
+    technologies: ['HTML', 'CSS', 'JS', 'REACT.JS'],
+    liveLink: 'https://deploy-preview-1--comforting-shortbread-5df959.netlify.app',
+    sourceLink: 'https://github.com/iamfarhatsharefi/javascript-calculator',
+  },
 ];
 
 const projectPopup = document.querySelector('.project-popup');
