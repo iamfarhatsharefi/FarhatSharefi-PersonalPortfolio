@@ -10,7 +10,7 @@ closeBtn.addEventListener('click', () => {
   closeBtn.style.display = 'none';
 });
 const userData = {
-  homeImage: 'images/employe1.png',
+  homeImage: 'images/homeimage.jpg',
   homeTitle: 'Hello there, <span class="color">I\'m</span>',
   homeName: 'Farhat Sharefi',
   homeRole: 'a <span class="color">Junior web developer</span>',
