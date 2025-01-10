@@ -207,6 +207,10 @@ const certificateData = [
     url: 'https://www.freecodecamp.org/certification/Farhatsharefi/javascript-algorithms-and-data-structures-v8',
     imageSrc: './images/capturetest2.png',
   },
+  {
+    title: 'Html and css crash',
+    imageSrc: './images/coursera.png',
+  },
 ];
 
 function generateCertificateItems() {
