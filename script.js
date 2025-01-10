@@ -125,7 +125,7 @@ const projects = [
     description: 'This project  brings a touch of brilliance to the FreeCodeCamp JavaScript Calculator project! 🚀',
     images: ['images/calculatorphoto.png'],
     longDescription: ' brings a touch of brilliance to the FreeCodeCamp JavaScript Calculator project! 🚀 We’ve meticulously crafted a dynamic, user-friendly calculator that embodies both elegance and functionality. Dive into a world of clean code and stunning design!',
-    technologies: ['HTML', 'CSS', 'JS', 'REACT.JS'],
+    technologies: ['REACT.JS'],
     liveLink: 'https://deploy-preview-1--comforting-shortbread-5df959.netlify.app',
     sourceLink: 'https://github.com/iamfarhatsharefi/javascript-calculator',
   },
@@ -134,7 +134,7 @@ const projects = [
     description: 'The Dynamic Drum Machine is a fully interactive and responsive web application built using React and Bootstrap, designed to simulate a real drum machine.',
     images: ['images/drumphoto.png'],
     longDescription: 'The app is packed with custom audio clips, and it updates in real-time to reflect the drum pad being played. It offers a smooth and engaging user experience for both desktop and mobile users, passing all the requirements of the FreeCodeCamp Drum Machine project.',
-    technologies: ['HTML', 'CSS', 'JS', 'REACT.JS'],
+    technologies: ['REACT.JS'],
     liveLink: 'https://darling-madeleine-3b4c04.netlify.app/ ',
     sourceLink: 'https://github.com/iamfarhatsharefi/drum-machine',
   },
@@ -147,6 +147,16 @@ const projects = [
     liveLink: 'https://clock-lqoqqw853-farhat-sharefis-projects.vercel.app/',
     sourceLink: 'https://github.com/iamfarhatsharefi/clock',
   },
+  {
+    title: '11 🎬✨Movie App',
+    description: 'The ultimate gateway to explore and discover the world of cinema! Whether you’re a casual moviegoer or a passionate film aficionado, this app offers a seamless and engaging experience.',
+    images: ['images/movie-app.png'], // Ensure the image path is correct
+    longDescription: 'Immerse yourself in the magic of storytelling by browsing through popular films, viewing detailed information, and enjoying a unique cinematic experience.',
+    technologies: ['Next.js'], // Standardized casing
+    liveLink: 'https://clock-lqoqqw853-farhat-sharefis-projects.vercel.app/',
+    sourceLink: 'https://github.com/iamfarhatsharefi/movie-app',
+}
+
 ];
 
 const projectPopup = document.querySelector('.project-popup');
