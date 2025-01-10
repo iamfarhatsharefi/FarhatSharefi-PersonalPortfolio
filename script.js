@@ -114,7 +114,7 @@ const projects = [
   {
     title: '7✨ Markdown Previewer: ',
     description: 'This project introduces significant enhancements and features to the Markdown Previewer project.',
-    images: ['images/previewer.png'],
+    images: ['images/previewer.PNG'],
     longDescription: 'The primary objective is to ensure that the previewer accurately reflects Markdown syntax in real-time while providing a smooth and responsive user experience. This update also ensures full compliance with FreeCodeCamp requirements, ESLint checks, and optimized design for both desktop and mobile responsiveness.',
     technologies: ['HTML', 'CSS', 'JS', 'REACT.JS'],
     liveLink: 'https://luminous-muffin-3f93df.netlify.app/',
