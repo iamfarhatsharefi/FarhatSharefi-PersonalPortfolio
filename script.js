@@ -150,7 +150,7 @@ const projects = [
   {
     title: '11 🎬✨Movie App',
     description: 'The ultimate gateway to explore and discover the world of cinema! Whether you’re a casual moviegoer or a passionate film aficionado, this app offers a seamless and engaging experience.',
-    images: ['images/movie-app.png'], // Ensure the image path is correct
+    images: ['images/movie app.png'], // Ensure the image path is correct
     longDescription: 'Immerse yourself in the magic of storytelling by browsing through popular films, viewing detailed information, and enjoying a unique cinematic experience.',
     technologies: ['Next.js'], // Standardized casing
     liveLink: 'https://clock-lqoqqw853-farhat-sharefis-projects.vercel.app/',
@@ -255,12 +255,12 @@ const certificateData = [
   {
     title: 'Responsive Web Design',
     url: 'https://www.freecodecamp.org/certification/Farhatsharefi/responsive-web-design',
-    imageSrc: './images/capturetest.png',
+    imageSrc: '/repository-name/images/capturetest.png',
   },
   {
     title: 'JavaScript Algorithms',
     url: 'https://www.freecodecamp.org/certification/Farhatsharefi/javascript-algorithms-and-data-structures-v8',
-    imageSrc: './images/capturetest2.png',
+    imageSrc: '/repository-name/images/capturetest2.png',
   },
   {
     title: 'Html and css crash',
