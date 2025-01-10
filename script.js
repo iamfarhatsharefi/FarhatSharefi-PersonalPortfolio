@@ -276,7 +276,7 @@ function generateCertificateItems() {
   const certificateDescriptionElement = document.querySelector('.certificate-description');
   const certificateGridElement = document.querySelector('.certificate-grid');
 
-  certificateDescriptionElement.textContent = "I'm Mehria Saqibi, a junior web developer with a computer science degree and two years of teaching experience, one year as a consultant in an NGO, and 6 months as a volunteer for BUILD VOLUNTEER. I bring a diverse skill set including web development, problem-solving, and communication. I thrive on creating elegant web solutions and contributing to meaningful projects.";
+  certificateDescriptionElement.textContent = "Every certification I’ve earned is a testament to my unwavering commitment to learning, creativity, and excellence. They are not just pieces of paper but milestones that reflect countless hours of dedication, passion, and perseverance. Each certificate represents a step in my journey of creativity and technical growth, guided by my passion for web development, graphic design, and photography. Together, these achievements embody the knowledge and skills I’ve acquired to bring my visions to life and inspire others.";
 
   certificateData.forEach((certificate) => {
     const certificateItem = document.createElement('a');
