@@ -102,16 +102,6 @@ const projects = [
     liveLink: 'https://iamfarhatsharefi.github.io/Pokeman-search-App/',
     sourceLink: 'https://github.com/iamfarhatsharefi/Pokeman-search-App',
   },
-  {
-    title: '6: java calculator',
-    description: 'brings a touch of brilliance to the FreeCodeCamp JavaScript Calculator project! 🚀',
-    images: ['images/calculatorphoto.png'],
-    longDescription: 'The Java Calculator is a desktop application developed using Java to perform basic mathematical operations such as addition, subtraction, multiplication, and division. Designed with a user-friendly graphical interface, this calculator provides a seamless and interactive experience for users to carry out calculations with ease.',
-    screenshots: ['images/calculatorphoto.png'],
-    technologies: ['HTML' 'CSS','JAVASCRIPT','React'],
-    liveLink: 'https://deploy-preview-1--comforting-shortbread-5df959.netlify.app ',
-    sourceLink: 'https://github.com/iamfarhatsharefi/Pokeman-search-App',
-  },
 ];
 
 const projectPopup = document.querySelector('.project-popup');
