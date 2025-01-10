@@ -276,7 +276,7 @@ function generateCertificateItems() {
   const certificateDescriptionElement = document.querySelector('.certificate-description');
   const certificateGridElement = document.querySelector('.certificate-grid');
 
-  certificateDescriptionElement.textContent = 'I\'m Farhat Sharefi, a graphic design and photography student at Kabul University with a passion for coding. My studies at Bakhtr Institute in Berlin and my NGO work, including volunteering with Save the Children, fuel my drive to create impactful web solutions and visually stunning projects.';
+  certificateDescriptionElement.textContent = "I'm Mehria Saqibi, a junior web developer with a computer science degree and two years of teaching experience, one year as a consultant in an NGO, and 6 months as a volunteer for BUILD VOLUNTEER. I bring a diverse skill set including web development, problem-solving, and communication. I thrive on creating elegant web solutions and contributing to meaningful projects.";
 
   certificateData.forEach((certificate) => {
     const certificateItem = document.createElement('a');
@@ -298,30 +298,73 @@ function generateCertificateItems() {
 }
 
 generateCertificateItems();
-
-
 const form = document.querySelector('.contact-form');
-    const formspreeUrl = 'https://formspree.io/f/mblroodb';
+const emailMessage = document.querySelector('.email-message');
+const formspreeUrl = 'https://formspree.io/f/mblroodb';
 
-    form.addEventListener('submit', (event) => {
-      event.preventDefault();
+function saveFormData() {
+  const name = document.getElementById('name').value;
+  const phone = document.getElementById('phone').value;
+  const email = document.getElementById('email').value;
+  const message = document.getElementById('message').value;
+  const formData = {
+    name, phone, email, message,
+  };
+  localStorage.setItem('contactFormData', JSON.stringify(formData));
+}
 
-      const formData = new FormData(form);
+function populateFormData() {
+  const savedData = localStorage.getItem('contactFormData');
+  if (savedData) {
+    const formData = JSON.parse(savedData);
+    document.getElementById('name').value = formData.name;
+    document.getElementById('phone').value = formData.phone;
+    document.getElementById('email').value = formData.email;
+    document.getElementById('message').value = formData.message;
+  }
+}
 
-      fetch(formspreeUrl, {
+populateFormData();
+
+form.addEventListener('submit', async (event) => {
+  event.preventDefault();
+  const email = document.getElementById('email').value;
+
+  if (email !== email.toLowerCase()) {
+    emailMessage.textContent = 'Email must be in lowercase';
+    emailMessage.classList.add('error');
+    emailMessage.classList.remove('sent');
+  } else {
+    saveFormData();
+
+    const formData = new FormData(form);
+
+    try {
+      const response = await fetch(formspreeUrl, {
         method: 'POST',
         body: formData,
-      })
-        .then((response) => {
-          if (response.ok) {
-            alert('Form submitted successfully!');
-            form.reset();
-          } else {
-            alert('Failed to submit the form. Please try again.');
-          }
-        })
-        .catch((error) => {
-          alert('There was an error submitting the form. Please check your internet connection and try again.');
-          console.error('Error:', error);
-        });
-    });
+        headers: {
+          Accept: 'application/json',
+        },
+      });
+
+      if (response.ok) {
+        emailMessage.textContent = 'Message sent successfully';
+        emailMessage.classList.add('sent');
+        emailMessage.classList.remove('error');
+        form.reset();
+        localStorage.removeItem('contactFormData');
+      } else {
+        emailMessage.textContent = 'Failed to send message';
+        emailMessage.classList.add('error');
+        emailMessage.classList.remove('sent');
+      }
+    } catch (error) {
+      // eslint-disable-next-line no-console
+      console.error('Fetch error:', error);
+      emailMessage.textContent = 'Error sending message';
+      emailMessage.classList.add('error');
+      emailMessage.classList.remove('sent');
+    }
+  }
+});
