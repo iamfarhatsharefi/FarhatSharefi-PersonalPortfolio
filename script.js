@@ -209,7 +209,7 @@ const certificateData = [
   },
   {
     title: 'Html and css crash',
-    imageSrc: './images/cert.png',
+    imageSrc: './images/cert.jpg',
   },
 ];
 
