@@ -255,12 +255,12 @@ const certificateData = [
   {
     title: 'Responsive Web Design',
     url: 'https://www.freecodecamp.org/certification/Farhatsharefi/responsive-web-design',
-    imageSrc: '/repository-name/images/capturetest.png',
+    imageSrc: '/iamfarhatsharefi/images/capturetest.png',
   },
   {
     title: 'JavaScript Algorithms',
     url: 'https://www.freecodecamp.org/certification/Farhatsharefi/javascript-algorithms-and-data-structures-v8',
-    imageSrc: '/repository-name/images/capturetest2.png',
+    imageSrc: './images/javac.png',
   },
   {
     title: 'Html and css crash',
