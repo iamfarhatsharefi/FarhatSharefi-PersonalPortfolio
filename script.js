@@ -211,6 +211,10 @@ const certificateData = [
     title: 'Html and css crash',
     imageSrc: './images/cert.jpg',
   },
+  {
+    title: 'photography and Graphic design',
+    imageSrc: './images/P- (15) Farhat Sharifi.jpg',
+  },
 ];
 
 function generateCertificateItems() {
